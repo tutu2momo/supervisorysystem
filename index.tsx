@@ -1489,6 +1489,15 @@ const HeaderProfile = ({ currentRegion, onRegionChange }: { currentRegion: strin
                                   {currentRole.id === role.id && <CheckCircle2 className="w-3.5 h-3.5" />}
                                </button>
                             ))}
+                            <a 
+                               href="https://tutu2momo.github.com/supervisorysystem" 
+                               target="_blank" 
+                               rel="noopener noreferrer"
+                               className="w-full text-left px-4 py-2.5 text-xs font-medium hover:bg-blue-50 hover:text-blue-600 transition-colors flex items-center justify-between text-slate-500 border-t border-slate-50"
+                            >
+                               项目主页
+                               <Globe className="w-3.5 h-3.5" />
+                            </a>
                          </div>
                       </>
                    )}
