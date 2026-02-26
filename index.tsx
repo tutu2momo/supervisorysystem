@@ -1167,7 +1167,7 @@ const ServiceRegulationView = ({ onBack, currentRegion, onRegionChange }: { onBa
 
       <div className="bg-white sticky top-14 z-40 border-b border-slate-100 px-4">
          <div className="flex space-x-6">
-            <button onClick={() => setActiveTab('B2B')} className={`py-3 text-sm font-medium border-b-2 transition-colors ${activeTab === 'B2B' ? 'border-blue-600 text-blue-600' : 'border-transparent text-slate-500'}`}>远程医疗 (H2H)</button>
+            <button onClick={() => setActiveTab('B2B')} className={`py-3 text-sm font-medium border-b-2 transition-colors ${activeTab === 'B2B' ? 'border-blue-600 text-blue-600' : 'border-transparent text-slate-500'}`}>远程医疗 (B2B)</button>
             <button onClick={() => setActiveTab('TOC')} className={`py-3 text-sm font-medium border-b-2 transition-colors ${activeTab === 'TOC' ? 'border-emerald-600 text-emerald-600' : 'border-transparent text-slate-500'}`}>互联网医疗 (ToC)</button>
          </div>
       </div>
